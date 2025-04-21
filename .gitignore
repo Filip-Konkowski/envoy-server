@@ -1,0 +1,20 @@
+
+# Ignore secrets and certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# Ignore temporary and build files
+.DS_Store
+.vscode/
+.idea
+*.zip
+.env
+*.bak
+
+# Ignore log files
+*.log
+
+# Ignore local test files
+**/local-test/*
